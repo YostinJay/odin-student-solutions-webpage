@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="top-container">
+    <div class="container">
       <header>
         <nav>
           <div class="header-logo">
@@ -26,7 +26,7 @@
           <div class="hero-title">
             <p>This Website is awesome</p>
           </div>
-          <div class="hero-desc">
+          <div class="hero-title-desc">
             <p>
               This website has some subtext that goes under the main title. It's
               a smaller font and the color is lower contrast.
@@ -35,13 +35,16 @@
           <button>Sign Up</button>
         </div>
         <div class="hero-img">
-          <img src="#" alt="placeholder" />
+          <img src="#" alt="" />
+          <p style="text-align: center; padding: 80px">
+            this is a placeholder for an image
+          </p>
         </div>
       </div>
     </div>
-    <div class="middle-container">
+    <div class="container middle-container">
       <div class="mid-title">
-        <h1>Some random information</h1>
+        <h3>Some random information.</h3>
       </div>
       <div class="box-wrapper">
         <div class="card">
@@ -62,15 +65,29 @@
         </div>
       </div>
     </div>
-    <div class="quote-container">
-      <h1 class="quote"></h1>
-    </div>
-    <div class="big-btn-container">
-      <div class="blue-container-with-btn">
-        <h1>Call to action! It's time!</h1>
-        <p>Sign up for our product by clicking that button right over there!</p>
+    <div class="container quote-container">
+      <p class="quote">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
+      </p>
+      <div class="who-quote">
+        <p>-Thor, God of Thunder</p>
       </div>
     </div>
-    <footer>Copyright C The Odin Project 2021</footer>
+    <div class="container big-btn-container">
+      <div class="blue-container-with-btn">
+        <div class="blue-cont-desc">
+          <h1>Call to action! It's time!</h1>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="btn-cont">
+          <button class="btn-w-border">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <footer class="container">Copyright C The Odin Project 2021</footer>
   </body>
 </html>
